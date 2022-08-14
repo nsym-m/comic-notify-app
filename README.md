@@ -14,3 +14,38 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## ディレクトリ構造
+
+$ tree
+.
+├── app.dart
+├── main.dart
+└── src
+    ├── data
+    │   ├── local
+    │   ├── model
+    │   │   ├── home.dart
+    │   │   ├── home.freezed.dart
+    │   │   ├── home.g.dart
+    │   │   ├── notification.dart
+    │   │   ├── notification.freezed.dart
+    │   │   └── notification.g.dart
+    │   ├── remote
+    │   │   ├── base_dio.dart
+    │   │   └── home
+    │   │       ├── home_data_source.dart
+    │   │       └── home_data_source.g.dart
+    │   └── repository
+    │       └── home_repository.dart
+    ├── route
+    │   └── router.dart
+    └── ui
+        ├── home
+        │   ├── home_view.dart
+        │   └── home_view_model.dart
+        ├── root
+        │   └── root_view.dart
+        └── search
+            ├── search_view.dart
+            └── search_view_model.dart
