@@ -17,6 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## ディレクトリ構造
 
+```
 $ tree
 .
 ├── app.dart
@@ -49,3 +50,4 @@ $ tree
         └── search
             ├── search_view.dart
             └── search_view_model.dart
+```
