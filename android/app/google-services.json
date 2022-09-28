@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385874542596",
+    "project_id": "comic-notify-dev",
+    "storage_bucket": "comic-notify-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385874542596:android:8547abb488117c580ab551",
+        "android_client_info": {
+          "package_name": "com.example.comic_notify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385874542596-her3p4flhkdjtngj6lfqgtq3aqfe6hpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA1RDPTOaqnlz1ZQMwUyb8yZ3DuI6pkG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385874542596-her3p4flhkdjtngj6lfqgtq3aqfe6hpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
