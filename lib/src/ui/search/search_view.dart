@@ -1,12 +1,21 @@
+import 'package:comic_notify/src/ui/search/search_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:go_router/go_router.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class SearchView extends HookWidget {
+class SearchView extends HookConsumerWidget {
   const SearchView({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final viewModel = ref.read(searchViewModelProvider);
+
+    useEffect(() {
+      viewModel.search();
+      return;
+    }, []);
+
     return Scaffold(
       appBar: AppBar(
         title: Text("search screen"),
@@ -42,7 +51,7 @@ class SearchView extends HookWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => {},
+        onPressed: () => {viewModel.search()},
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
