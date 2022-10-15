@@ -13,6 +13,6 @@ final bookDataSourceProvider =
 abstract class BookDataSource {
   factory BookDataSource(Dio dio) => _BookDataSource(dio);
 
-  @GET('/search/book')
+  @GET('/services/api/BooksBook/Search/20170404')
   Future<BookResponse> searchBooks(@Queries() QueriesMap queries);
 }
