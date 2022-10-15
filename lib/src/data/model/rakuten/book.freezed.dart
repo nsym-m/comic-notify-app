@@ -31,26 +31,26 @@ mixin _$Book {
   String get author => throw _privateConstructorUsedError;
   String get authorKana => throw _privateConstructorUsedError;
   String get publisherName => throw _privateConstructorUsedError;
-  int get size => throw _privateConstructorUsedError;
+  String get size => throw _privateConstructorUsedError;
   String get isbn => throw _privateConstructorUsedError;
   String get itemCaption => throw _privateConstructorUsedError;
   String get salesDate => throw _privateConstructorUsedError;
-  String get itemPrice => throw _privateConstructorUsedError;
-  String get listPrice => throw _privateConstructorUsedError;
-  String get discountRate => throw _privateConstructorUsedError;
-  String get discountPrice => throw _privateConstructorUsedError;
+  int get itemPrice => throw _privateConstructorUsedError;
+  int get listPrice => throw _privateConstructorUsedError;
+  int get discountRate => throw _privateConstructorUsedError;
+  int get discountPrice => throw _privateConstructorUsedError;
   String get itemUrl => throw _privateConstructorUsedError;
   String get affiliateUrl => throw _privateConstructorUsedError;
   String get smallImageUrl => throw _privateConstructorUsedError;
   String get mediumImageUrl => throw _privateConstructorUsedError;
   String get largeImageUrl => throw _privateConstructorUsedError;
   String get chirayomiUrl => throw _privateConstructorUsedError;
-  int get availability => throw _privateConstructorUsedError;
+  String get availability => throw _privateConstructorUsedError;
   int get postageFlag => throw _privateConstructorUsedError;
   int get limitedFlag => throw _privateConstructorUsedError;
   int get reviewCount => throw _privateConstructorUsedError;
-  int get reviewAverage => throw _privateConstructorUsedError;
-  int get booksGenreId => throw _privateConstructorUsedError;
+  String get reviewAverage => throw _privateConstructorUsedError;
+  String get booksGenreId => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -73,26 +73,26 @@ abstract class $BookCopyWith<$Res> {
       String author,
       String authorKana,
       String publisherName,
-      int size,
+      String size,
       String isbn,
       String itemCaption,
       String salesDate,
-      String itemPrice,
-      String listPrice,
-      String discountRate,
-      String discountPrice,
+      int itemPrice,
+      int listPrice,
+      int discountRate,
+      int discountPrice,
       String itemUrl,
       String affiliateUrl,
       String smallImageUrl,
       String mediumImageUrl,
       String largeImageUrl,
       String chirayomiUrl,
-      int availability,
+      String availability,
       int postageFlag,
       int limitedFlag,
       int reviewCount,
-      int reviewAverage,
-      int booksGenreId});
+      String reviewAverage,
+      String booksGenreId});
 }
 
 /// @nodoc
@@ -185,7 +185,7 @@ class _$BookCopyWithImpl<$Res> implements $BookCopyWith<$Res> {
       size: size == freezed
           ? _value.size
           : size // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       isbn: isbn == freezed
           ? _value.isbn
           : isbn // ignore: cast_nullable_to_non_nullable
@@ -201,19 +201,19 @@ class _$BookCopyWithImpl<$Res> implements $BookCopyWith<$Res> {
       itemPrice: itemPrice == freezed
           ? _value.itemPrice
           : itemPrice // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       listPrice: listPrice == freezed
           ? _value.listPrice
           : listPrice // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       discountRate: discountRate == freezed
           ? _value.discountRate
           : discountRate // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       discountPrice: discountPrice == freezed
           ? _value.discountPrice
           : discountPrice // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       itemUrl: itemUrl == freezed
           ? _value.itemUrl
           : itemUrl // ignore: cast_nullable_to_non_nullable
@@ -241,7 +241,7 @@ class _$BookCopyWithImpl<$Res> implements $BookCopyWith<$Res> {
       availability: availability == freezed
           ? _value.availability
           : availability // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       postageFlag: postageFlag == freezed
           ? _value.postageFlag
           : postageFlag // ignore: cast_nullable_to_non_nullable
@@ -257,11 +257,11 @@ class _$BookCopyWithImpl<$Res> implements $BookCopyWith<$Res> {
       reviewAverage: reviewAverage == freezed
           ? _value.reviewAverage
           : reviewAverage // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
     ));
   }
 }
@@ -283,26 +283,26 @@ abstract class _$$_BookCopyWith<$Res> implements $BookCopyWith<$Res> {
       String author,
       String authorKana,
       String publisherName,
-      int size,
+      String size,
       String isbn,
       String itemCaption,
       String salesDate,
-      String itemPrice,
-      String listPrice,
-      String discountRate,
-      String discountPrice,
+      int itemPrice,
+      int listPrice,
+      int discountRate,
+      int discountPrice,
       String itemUrl,
       String affiliateUrl,
       String smallImageUrl,
       String mediumImageUrl,
       String largeImageUrl,
       String chirayomiUrl,
-      int availability,
+      String availability,
       int postageFlag,
       int limitedFlag,
       int reviewCount,
-      int reviewAverage,
-      int booksGenreId});
+      String reviewAverage,
+      String booksGenreId});
 }
 
 /// @nodoc
@@ -396,7 +396,7 @@ class __$$_BookCopyWithImpl<$Res> extends _$BookCopyWithImpl<$Res>
       size: size == freezed
           ? _value.size
           : size // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       isbn: isbn == freezed
           ? _value.isbn
           : isbn // ignore: cast_nullable_to_non_nullable
@@ -412,19 +412,19 @@ class __$$_BookCopyWithImpl<$Res> extends _$BookCopyWithImpl<$Res>
       itemPrice: itemPrice == freezed
           ? _value.itemPrice
           : itemPrice // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       listPrice: listPrice == freezed
           ? _value.listPrice
           : listPrice // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       discountRate: discountRate == freezed
           ? _value.discountRate
           : discountRate // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       discountPrice: discountPrice == freezed
           ? _value.discountPrice
           : discountPrice // ignore: cast_nullable_to_non_nullable
-              as String,
+              as int,
       itemUrl: itemUrl == freezed
           ? _value.itemUrl
           : itemUrl // ignore: cast_nullable_to_non_nullable
@@ -452,7 +452,7 @@ class __$$_BookCopyWithImpl<$Res> extends _$BookCopyWithImpl<$Res>
       availability: availability == freezed
           ? _value.availability
           : availability // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       postageFlag: postageFlag == freezed
           ? _value.postageFlag
           : postageFlag // ignore: cast_nullable_to_non_nullable
@@ -468,11 +468,11 @@ class __$$_BookCopyWithImpl<$Res> extends _$BookCopyWithImpl<$Res>
       reviewAverage: reviewAverage == freezed
           ? _value.reviewAverage
           : reviewAverage // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
     ));
   }
 }
@@ -539,7 +539,7 @@ class _$_Book implements _Book {
   @override
   final String publisherName;
   @override
-  final int size;
+  final String size;
   @override
   final String isbn;
   @override
@@ -547,13 +547,13 @@ class _$_Book implements _Book {
   @override
   final String salesDate;
   @override
-  final String itemPrice;
+  final int itemPrice;
   @override
-  final String listPrice;
+  final int listPrice;
   @override
-  final String discountRate;
+  final int discountRate;
   @override
-  final String discountPrice;
+  final int discountPrice;
   @override
   final String itemUrl;
   @override
@@ -567,7 +567,7 @@ class _$_Book implements _Book {
   @override
   final String chirayomiUrl;
   @override
-  final int availability;
+  final String availability;
   @override
   final int postageFlag;
   @override
@@ -575,9 +575,9 @@ class _$_Book implements _Book {
   @override
   final int reviewCount;
   @override
-  final int reviewAverage;
+  final String reviewAverage;
   @override
-  final int booksGenreId;
+  final String booksGenreId;
 
   @override
   String toString() {
@@ -705,26 +705,26 @@ abstract class _Book implements Book {
       required final String author,
       required final String authorKana,
       required final String publisherName,
-      required final int size,
+      required final String size,
       required final String isbn,
       required final String itemCaption,
       required final String salesDate,
-      required final String itemPrice,
-      required final String listPrice,
-      required final String discountRate,
-      required final String discountPrice,
+      required final int itemPrice,
+      required final int listPrice,
+      required final int discountRate,
+      required final int discountPrice,
       required final String itemUrl,
       required final String affiliateUrl,
       required final String smallImageUrl,
       required final String mediumImageUrl,
       required final String largeImageUrl,
       required final String chirayomiUrl,
-      required final int availability,
+      required final String availability,
       required final int postageFlag,
       required final int limitedFlag,
       required final int reviewCount,
-      required final int reviewAverage,
-      required final int booksGenreId}) = _$_Book;
+      required final String reviewAverage,
+      required final String booksGenreId}) = _$_Book;
 
   factory _Book.fromJson(Map<String, dynamic> json) = _$_Book.fromJson;
 
@@ -751,7 +751,7 @@ abstract class _Book implements Book {
   @override
   String get publisherName;
   @override
-  int get size;
+  String get size;
   @override
   String get isbn;
   @override
@@ -759,13 +759,13 @@ abstract class _Book implements Book {
   @override
   String get salesDate;
   @override
-  String get itemPrice;
+  int get itemPrice;
   @override
-  String get listPrice;
+  int get listPrice;
   @override
-  String get discountRate;
+  int get discountRate;
   @override
-  String get discountPrice;
+  int get discountPrice;
   @override
   String get itemUrl;
   @override
@@ -779,7 +779,7 @@ abstract class _Book implements Book {
   @override
   String get chirayomiUrl;
   @override
-  int get availability;
+  String get availability;
   @override
   int get postageFlag;
   @override
@@ -787,9 +787,9 @@ abstract class _Book implements Book {
   @override
   int get reviewCount;
   @override
-  int get reviewAverage;
+  String get reviewAverage;
   @override
-  int get booksGenreId;
+  String get booksGenreId;
   @override
   @JsonKey(ignore: true)
   _$$_BookCopyWith<_$_Book> get copyWith => throw _privateConstructorUsedError;
@@ -1140,7 +1140,7 @@ mixin _$BookRequest {
   String? get title => throw _privateConstructorUsedError;
   String? get author => throw _privateConstructorUsedError;
   String? get publisherName => throw _privateConstructorUsedError;
-  int? get size => throw _privateConstructorUsedError;
+  String? get size => throw _privateConstructorUsedError;
   String? get isbn => throw _privateConstructorUsedError;
   String? get booksGenreId => throw _privateConstructorUsedError;
   int? get hits => throw _privateConstructorUsedError;
@@ -1171,7 +1171,7 @@ abstract class $BookRequestCopyWith<$Res> {
       String? title,
       String? author,
       String? publisherName,
-      int? size,
+      String? size,
       String? isbn,
       String? booksGenreId,
       int? hits,
@@ -1250,7 +1250,7 @@ class _$BookRequestCopyWithImpl<$Res> implements $BookRequestCopyWith<$Res> {
       size: size == freezed
           ? _value.size
           : size // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       isbn: isbn == freezed
           ? _value.isbn
           : isbn // ignore: cast_nullable_to_non_nullable
@@ -1311,7 +1311,7 @@ abstract class _$$_BookRequestCopyWith<$Res>
       String? title,
       String? author,
       String? publisherName,
-      int? size,
+      String? size,
       String? isbn,
       String? booksGenreId,
       int? hits,
@@ -1392,7 +1392,7 @@ class __$$_BookRequestCopyWithImpl<$Res> extends _$BookRequestCopyWithImpl<$Res>
       size: size == freezed
           ? _value.size
           : size // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       isbn: isbn == freezed
           ? _value.isbn
           : isbn // ignore: cast_nullable_to_non_nullable
@@ -1481,7 +1481,7 @@ class _$_BookRequest extends _BookRequest {
   @override
   final String? publisherName;
   @override
-  final int? size;
+  final String? size;
   @override
   final String? isbn;
   @override
@@ -1583,7 +1583,7 @@ abstract class _BookRequest extends BookRequest {
       final String? title,
       final String? author,
       final String? publisherName,
-      final int? size,
+      final String? size,
       final String? isbn,
       final String? booksGenreId,
       final int? hits,
@@ -1613,7 +1613,7 @@ abstract class _BookRequest extends BookRequest {
   @override
   String? get publisherName;
   @override
-  int? get size;
+  String? get size;
   @override
   String? get isbn;
   @override

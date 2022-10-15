@@ -27,8 +27,8 @@ Map<String, dynamic> _$$_GenreInformationToJson(_$_GenreInformation instance) =>
     };
 
 _$_Parent _$$_ParentFromJson(Map<String, dynamic> json) => _$_Parent(
-      parent: json['parent'] as int?,
-      booksGenreId: json['booksGenreId'] as int?,
+      parent: json['parent'] as String?,
+      booksGenreId: json['booksGenreId'] as String?,
       booksGenreName: json['booksGenreName'] as String?,
       genreLevel: json['genreLevel'] as String?,
     );
@@ -41,8 +41,8 @@ Map<String, dynamic> _$$_ParentToJson(_$_Parent instance) => <String, dynamic>{
     };
 
 _$_Current _$$_CurrentFromJson(Map<String, dynamic> json) => _$_Current(
-      current: json['current'] as int?,
-      booksGenreId: json['booksGenreId'] as int?,
+      current: json['current'] as String?,
+      booksGenreId: json['booksGenreId'] as String?,
       booksGenreName: json['booksGenreName'] as String?,
       genreLevel: json['genreLevel'] as String?,
     );
@@ -56,8 +56,8 @@ Map<String, dynamic> _$$_CurrentToJson(_$_Current instance) =>
     };
 
 _$_Children _$$_ChildrenFromJson(Map<String, dynamic> json) => _$_Children(
-      children: json['children'] as int?,
-      booksGenreId: json['booksGenreId'] as int?,
+      children: json['children'] as String?,
+      booksGenreId: json['booksGenreId'] as String?,
       booksGenreName: json['booksGenreName'] as String?,
       genreLevel: json['genreLevel'] as String?,
     );

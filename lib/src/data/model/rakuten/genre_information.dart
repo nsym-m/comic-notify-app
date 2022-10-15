@@ -20,8 +20,8 @@ class GenreInformation with _$GenreInformation {
 class Parent with _$Parent {
   @JsonSerializable()
   factory Parent({
-    int? parent,
-    int? booksGenreId,
+    String? parent,
+    String? booksGenreId,
     String? booksGenreName,
     String? genreLevel,
   }) = _Parent;
@@ -33,8 +33,8 @@ class Parent with _$Parent {
 class Current with _$Current {
   @JsonSerializable()
   factory Current({
-    int? current,
-    int? booksGenreId,
+    String? current,
+    String? booksGenreId,
     String? booksGenreName,
     String? genreLevel,
   }) = _Current;
@@ -47,8 +47,8 @@ class Current with _$Current {
 class Children with _$Children {
   @JsonSerializable()
   factory Children({
-    int? children,
-    int? booksGenreId,
+    String? children,
+    String? booksGenreId,
     String? booksGenreName,
     String? genreLevel,
   }) = _Children;

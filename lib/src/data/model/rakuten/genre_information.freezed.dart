@@ -237,8 +237,8 @@ Parent _$ParentFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Parent {
-  int? get parent => throw _privateConstructorUsedError;
-  int? get booksGenreId => throw _privateConstructorUsedError;
+  String? get parent => throw _privateConstructorUsedError;
+  String? get booksGenreId => throw _privateConstructorUsedError;
   String? get booksGenreName => throw _privateConstructorUsedError;
   String? get genreLevel => throw _privateConstructorUsedError;
 
@@ -252,8 +252,8 @@ abstract class $ParentCopyWith<$Res> {
   factory $ParentCopyWith(Parent value, $Res Function(Parent) then) =
       _$ParentCopyWithImpl<$Res>;
   $Res call(
-      {int? parent,
-      int? booksGenreId,
+      {String? parent,
+      String? booksGenreId,
       String? booksGenreName,
       String? genreLevel});
 }
@@ -277,11 +277,11 @@ class _$ParentCopyWithImpl<$Res> implements $ParentCopyWith<$Res> {
       parent: parent == freezed
           ? _value.parent
           : parent // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreName: booksGenreName == freezed
           ? _value.booksGenreName
           : booksGenreName // ignore: cast_nullable_to_non_nullable
@@ -300,8 +300,8 @@ abstract class _$$_ParentCopyWith<$Res> implements $ParentCopyWith<$Res> {
       __$$_ParentCopyWithImpl<$Res>;
   @override
   $Res call(
-      {int? parent,
-      int? booksGenreId,
+      {String? parent,
+      String? booksGenreId,
       String? booksGenreName,
       String? genreLevel});
 }
@@ -326,11 +326,11 @@ class __$$_ParentCopyWithImpl<$Res> extends _$ParentCopyWithImpl<$Res>
       parent: parent == freezed
           ? _value.parent
           : parent // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreName: booksGenreName == freezed
           ? _value.booksGenreName
           : booksGenreName // ignore: cast_nullable_to_non_nullable
@@ -354,9 +354,9 @@ class _$_Parent implements _Parent {
       _$$_ParentFromJson(json);
 
   @override
-  final int? parent;
+  final String? parent;
   @override
-  final int? booksGenreId;
+  final String? booksGenreId;
   @override
   final String? booksGenreName;
   @override
@@ -405,17 +405,17 @@ class _$_Parent implements _Parent {
 
 abstract class _Parent implements Parent {
   factory _Parent(
-      {final int? parent,
-      final int? booksGenreId,
+      {final String? parent,
+      final String? booksGenreId,
       final String? booksGenreName,
       final String? genreLevel}) = _$_Parent;
 
   factory _Parent.fromJson(Map<String, dynamic> json) = _$_Parent.fromJson;
 
   @override
-  int? get parent;
+  String? get parent;
   @override
-  int? get booksGenreId;
+  String? get booksGenreId;
   @override
   String? get booksGenreName;
   @override
@@ -432,8 +432,8 @@ Current _$CurrentFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Current {
-  int? get current => throw _privateConstructorUsedError;
-  int? get booksGenreId => throw _privateConstructorUsedError;
+  String? get current => throw _privateConstructorUsedError;
+  String? get booksGenreId => throw _privateConstructorUsedError;
   String? get booksGenreName => throw _privateConstructorUsedError;
   String? get genreLevel => throw _privateConstructorUsedError;
 
@@ -447,8 +447,8 @@ abstract class $CurrentCopyWith<$Res> {
   factory $CurrentCopyWith(Current value, $Res Function(Current) then) =
       _$CurrentCopyWithImpl<$Res>;
   $Res call(
-      {int? current,
-      int? booksGenreId,
+      {String? current,
+      String? booksGenreId,
       String? booksGenreName,
       String? genreLevel});
 }
@@ -472,11 +472,11 @@ class _$CurrentCopyWithImpl<$Res> implements $CurrentCopyWith<$Res> {
       current: current == freezed
           ? _value.current
           : current // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreName: booksGenreName == freezed
           ? _value.booksGenreName
           : booksGenreName // ignore: cast_nullable_to_non_nullable
@@ -496,8 +496,8 @@ abstract class _$$_CurrentCopyWith<$Res> implements $CurrentCopyWith<$Res> {
       __$$_CurrentCopyWithImpl<$Res>;
   @override
   $Res call(
-      {int? current,
-      int? booksGenreId,
+      {String? current,
+      String? booksGenreId,
       String? booksGenreName,
       String? genreLevel});
 }
@@ -522,11 +522,11 @@ class __$$_CurrentCopyWithImpl<$Res> extends _$CurrentCopyWithImpl<$Res>
       current: current == freezed
           ? _value.current
           : current // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreName: booksGenreName == freezed
           ? _value.booksGenreName
           : booksGenreName // ignore: cast_nullable_to_non_nullable
@@ -550,9 +550,9 @@ class _$_Current implements _Current {
       _$$_CurrentFromJson(json);
 
   @override
-  final int? current;
+  final String? current;
   @override
-  final int? booksGenreId;
+  final String? booksGenreId;
   @override
   final String? booksGenreName;
   @override
@@ -601,17 +601,17 @@ class _$_Current implements _Current {
 
 abstract class _Current implements Current {
   factory _Current(
-      {final int? current,
-      final int? booksGenreId,
+      {final String? current,
+      final String? booksGenreId,
       final String? booksGenreName,
       final String? genreLevel}) = _$_Current;
 
   factory _Current.fromJson(Map<String, dynamic> json) = _$_Current.fromJson;
 
   @override
-  int? get current;
+  String? get current;
   @override
-  int? get booksGenreId;
+  String? get booksGenreId;
   @override
   String? get booksGenreName;
   @override
@@ -628,8 +628,8 @@ Children _$ChildrenFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Children {
-  int? get children => throw _privateConstructorUsedError;
-  int? get booksGenreId => throw _privateConstructorUsedError;
+  String? get children => throw _privateConstructorUsedError;
+  String? get booksGenreId => throw _privateConstructorUsedError;
   String? get booksGenreName => throw _privateConstructorUsedError;
   String? get genreLevel => throw _privateConstructorUsedError;
 
@@ -644,8 +644,8 @@ abstract class $ChildrenCopyWith<$Res> {
   factory $ChildrenCopyWith(Children value, $Res Function(Children) then) =
       _$ChildrenCopyWithImpl<$Res>;
   $Res call(
-      {int? children,
-      int? booksGenreId,
+      {String? children,
+      String? booksGenreId,
       String? booksGenreName,
       String? genreLevel});
 }
@@ -669,11 +669,11 @@ class _$ChildrenCopyWithImpl<$Res> implements $ChildrenCopyWith<$Res> {
       children: children == freezed
           ? _value.children
           : children // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreName: booksGenreName == freezed
           ? _value.booksGenreName
           : booksGenreName // ignore: cast_nullable_to_non_nullable
@@ -693,8 +693,8 @@ abstract class _$$_ChildrenCopyWith<$Res> implements $ChildrenCopyWith<$Res> {
       __$$_ChildrenCopyWithImpl<$Res>;
   @override
   $Res call(
-      {int? children,
-      int? booksGenreId,
+      {String? children,
+      String? booksGenreId,
       String? booksGenreName,
       String? genreLevel});
 }
@@ -720,11 +720,11 @@ class __$$_ChildrenCopyWithImpl<$Res> extends _$ChildrenCopyWithImpl<$Res>
       children: children == freezed
           ? _value.children
           : children // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreId: booksGenreId == freezed
           ? _value.booksGenreId
           : booksGenreId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as String?,
       booksGenreName: booksGenreName == freezed
           ? _value.booksGenreName
           : booksGenreName // ignore: cast_nullable_to_non_nullable
@@ -748,9 +748,9 @@ class _$_Children implements _Children {
       _$$_ChildrenFromJson(json);
 
   @override
-  final int? children;
+  final String? children;
   @override
-  final int? booksGenreId;
+  final String? booksGenreId;
   @override
   final String? booksGenreName;
   @override
@@ -799,17 +799,17 @@ class _$_Children implements _Children {
 
 abstract class _Children implements Children {
   factory _Children(
-      {final int? children,
-      final int? booksGenreId,
+      {final String? children,
+      final String? booksGenreId,
       final String? booksGenreName,
       final String? genreLevel}) = _$_Children;
 
   factory _Children.fromJson(Map<String, dynamic> json) = _$_Children.fromJson;
 
   @override
-  int? get children;
+  String? get children;
   @override
-  int? get booksGenreId;
+  String? get booksGenreId;
   @override
   String? get booksGenreName;
   @override
