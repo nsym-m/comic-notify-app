@@ -9,8 +9,7 @@ typedef QueriesMap = Map<String, dynamic>;
 class BaseDio with DioMixin implements Dio {
   BaseDio._([BaseOptions? options]) {
     options = BaseOptions(
-      baseUrl:
-          'https://app.rakuten.co.jp/services/api/BooksBook/Search/20170404',
+      baseUrl: 'https://app.rakuten.co.jp',
       contentType: 'application/json',
       receiveDataWhenStatusError: true,
       connectTimeout: 60 * 1000,
@@ -18,6 +17,7 @@ class BaseDio with DioMixin implements Dio {
       sendTimeout: 60 * 1000,
     );
     this.options = options;
+    interceptors.add(LogInterceptor(responseBody: true));
 
     httpClientAdapter = DefaultHttpClientAdapter();
   }
